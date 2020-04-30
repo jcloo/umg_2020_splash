@@ -14,18 +14,24 @@
 }
 
 body {
-  //   border: 1px dotted gray;
-  //   padding: 20px;
 			background-color:black;
 			color: white !important;
 			font-size: 24px;
+}
+
+header {
+	color: #7ad75d;
+}
+
+header div.mockup-link:hover {
+	color: white;
 }
 
 footer {
 	display:flex;
 }
 
-#artist-socials  {
+#artist-socials,.artist-logo  {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
