@@ -21,9 +21,10 @@ body {
 
 header {
 	color: #7ad75d;
+	font-size:24px;
 }
 
-header div.mockup-link:hover {
+header span.mockup-link:hover {
 	color: white;
 }
 
@@ -41,7 +42,8 @@ footer {
 
 }
 
-#artist-socials span {
+#artist-socials span,
+header span {
 
 	float: none !important;
 }
