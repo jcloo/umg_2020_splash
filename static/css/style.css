@@ -18,8 +18,21 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+  //   border: 1px dotted gray;
+  //   padding: 20px;
+			background-color:black;
+			color: white !important;
+			font-size: 24px;
+}
+
+#artist-socials  {
+
+	text-align:center;
+
+	img {
+		width: 15px !important;
+		height: auto;
+	}
 }
 
 .jumbotron {
