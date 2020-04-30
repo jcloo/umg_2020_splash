@@ -21,14 +21,20 @@ body {
 			font-size: 24px;
 }
 
-#artist-socials  {
+footer {
+	display:flex;
+}
 
+#artist-socials  {
+	width:100%;
+	height:auto;
 	text-align:center;
 
-	img {
-		width: 15px !important;
+}
+
+#artist-socials	img {
+		width: 30px !important;
 		height: auto;
-	}
 }
 
 .jumbotron {
