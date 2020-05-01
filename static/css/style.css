@@ -113,6 +113,12 @@ footer {
 
 }
 
+@media (max-width: 768px) {
+	.artist-logo {
+		width: 75%;
+	}
+}
+
 #artist-socials span,
 header span {
 	float: none !important;
