@@ -20,7 +20,7 @@ body {
 }
 
 header {
-	color: #7ad75d;
+	color: #7ad75d !important;
 	font-size:18px;
 	text-align: center;
 	top: 0;
@@ -36,8 +36,9 @@ header img {
     margin-top: 10%;
 }
 
-header span.mockup-link:hover {
+header span.mockup-link a:hover {
 	color: white;
+	text-decoration: none;
 }
 
 .artist-music {
