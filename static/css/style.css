@@ -30,7 +30,7 @@ header {
 }
 
 header a {
-	color: #7ad75d !important;
+	color: #7ad75d;
 
 }
 
@@ -43,7 +43,7 @@ header img {
 
 header span.mockup-link a:hover {
 	color: white;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 .artist-music {
