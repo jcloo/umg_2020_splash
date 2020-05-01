@@ -18,6 +18,12 @@ body {
 			font-size: 24px;
 }
 
+div {
+  color: #7ad75d;
+  font-family: "Helvetica Bold", Arial !important;
+  font-size: 20px;
+}
+
 hr {
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -30,6 +36,11 @@ hr {
 	object-fit: cover;
 	width: 100%;
 	height: 100vh;
+}
+
+.enter-video .artist-logo {
+  position: absolute;
+  top: 15vw;
 }
 
 header {
