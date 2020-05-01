@@ -161,6 +161,12 @@ footer {
   margin-bottom: 40px;
 }
 
+@media (max-width: 992px) and (min-width: 769px) {
+  header {
+    margin-bottom: 20%;
+  }
+}
+
 @media (max-width: 768px) {
   header {
     margin-bottom: 60%;
