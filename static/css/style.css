@@ -25,7 +25,7 @@ header {
 	top: 0;
 	width: 100%;
 	margin-bottom:50px;
-	font-size: calc(.09259vw + 11.7px);
+	font-size: 20px;
   letter-spacing: .01em;
   cursor: pointer;
   -webkit-transition: .2s color ease-in-out;
@@ -46,6 +46,8 @@ header a {
   transition: .2s color ease-in-out;
   padding: 0 1rem;
   text-transform: uppercase;
+	margin-top:5px;
+	margin-bottom: 5px;
 }
 
 #artist-nav {
@@ -114,21 +116,4 @@ header span {
 #artist-socials	img {
 		width: 30px !important;
 		height: auto;
-}
-
-.jumbotron {
-	position: relative;
-	background: none;
-}
-
-.jumbotron:after {
-     content:"";
-     background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
-     top: 0;
-     left: 0;
-     bottom: 0;
-     right: 0;
-     position: absolute;
-     z-index: -1;
 }
