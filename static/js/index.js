@@ -58,8 +58,9 @@ $(document).ready(function(){
 
   $(".mock-enter").click(function(){
     enableScroll();
-    $(".mock-enter").fadeOut("slow");
-    $("#artist-nav").css("z-index","1000");
+    $(".mock-enter").fadeOut("slow").then(function(){
+      $("#artist-nav").css("z-index","1000");
+    });
   });
 });
 
