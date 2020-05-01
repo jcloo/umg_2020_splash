@@ -17,7 +17,7 @@ function scrollToAnchor(aid){
       console.log("scrolling animation done");
 }
 
-$(body).click(function() {
+$("body").click(function() {
   //  console.log($(this).data('href'));
    	// scrollToAnchor($(this).data('href'));
      console.log("it scrolled");
