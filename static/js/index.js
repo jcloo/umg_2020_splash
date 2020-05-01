@@ -3,7 +3,7 @@ $(document).ready(function(){
   console.log("this js does load lol");
 });
 
-/*
+
 function scrollToAnchor(aid){
   	  var aTag = $("#"+ aid);
       console.log("scrolling animation start");
@@ -19,10 +19,10 @@ function scrollToAnchor(aid){
 
 $(".scrollTo").click(function() {
     console.log($(this).data('href'));
-   	 scrollToAnchor($(this).data('href'));
+   	// scrollToAnchor($(this).data('href'));
      console.log("it scrolled");
 });
-*/
+
 // left: 37, up: 38, right: 39, down: 40,
 // spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
 var keys = {37: 1, 38: 1, 39: 1, 40: 1};
