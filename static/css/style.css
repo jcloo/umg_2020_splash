@@ -115,11 +115,11 @@ footer {
 
 #artist-socials span,
 header span {
-
 	float: none !important;
 }
 
 #artist-socials	img {
 		width: 30px !important;
 		height: auto;
+		margin-bottom:20px;
 }
