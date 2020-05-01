@@ -13,7 +13,7 @@ $(document).ready(function(){
       return false;
     }
   }
-  
+
   var supportsPassive = false;
   try {
     window.addEventListener("test", null, Object.defineProperty({}, 'passive', {
@@ -44,7 +44,7 @@ $(document).ready(function(){
 
   $(".mock-enter").click(function(){
     enableScroll();
-    scrollToAnchor("#static-header");
+    scrollToAnchor("static-header");
   });
 
 
