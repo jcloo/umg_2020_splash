@@ -38,9 +38,18 @@ hr {
 	height: 100vh;
 }
 
-.enter-video .artist-logo {
+
+
+.enter-button {
+  top: 35vh;
   position: absolute;
-  top: 15vw;
+  width: 100;
+  font-size: 30px;
+}
+
+.enter-button img {
+  width: 75%;
+
 }
 
 header {
