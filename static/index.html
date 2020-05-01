@@ -5,26 +5,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="/js/index.js"></script>
 
-<script>
-function scrollToAnchor(aid){
-  	  var aTag = $("#"+ aid);
-  	  $('body').css({
-  	  	overflow: 'initial'
-  	  });
-  	  $('html,body').animate({scrollTop: aTag.offset().top},'slow').promise().then(
-  	  		function() {
-  	  			$('body').css({
-  	    	  	overflow: 'hidden'
-  	    	  });
-  	  		}
-  	  );
-}
-
-$(".scrollTo").click(function() {
-   	 scrollToAnchor($(this).data('href'));
-});
-</script>
-
 <html>
 <head>
 	<title>Joel Loo for Alec King</title>
