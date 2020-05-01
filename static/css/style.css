@@ -50,7 +50,7 @@ hr {
 .enter-button {
   top: 35vh;
   position: absolute;
-  width: 100;
+  width: 100%;
   font-size: 30px;
 }
 
