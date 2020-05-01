@@ -58,10 +58,10 @@ $(document).ready(function(){
 
   $(".mock-enter").click(function(){
     enableScroll();
-    $(".mock-enter").fadeOut("slow").done(function(){
+    $(".mock-enter").fadeOut("slow");
+    setTimeout(function(){
       $("#artist-nav").css("z-index","1000");
-    });
-
+    },500);
   });
 });
 
