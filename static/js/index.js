@@ -1,7 +1,11 @@
 $(document).ready(function(){
   function scrollToAnchor(aid){
     	  var aTag = $("#"+ aid);
-        $('html,body').stop(true,false).animate({scrollTop: aTag.offset().top},'slow').promise().then(
+    	  $('body').css({
+    	  	overflow: 'initial'
+    	  });
+        console.log("scrolling animation start");
+        $('html,body').animate({scrollTop: aTag.offset().top},'slow').promise().then(
     	  		function() {
     	  			$('body').css({
     	    	  	overflow: 'hidden'
@@ -12,10 +16,11 @@ $(document).ready(function(){
   }
 
   $(".scrollTo").click(function() {
+      console.log($(this).data('href'));
      	 scrollToAnchor($(this).data('href'));
+       console.log("it scrolled");
   });
 });
-
 
 
 /*
@@ -35,7 +40,7 @@ function preventDefaultForScrollKeys(e) {
 }
 
 // modern Chrome requires { passive: false } when adding event
-/*var supportsPassive = false;
+var supportsPassive = false;
 try {
   window.addEventListener("test", null, Object.defineProperty({}, 'passive', {
     get: function () { supportsPassive = true; }
