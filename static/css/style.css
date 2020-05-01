@@ -25,7 +25,7 @@ body {
 }
 
 header {
-	color: #7ad75d !important;
+	color: #59d433 !important;
 
 	text-align: center;
 	top: 0;
@@ -80,6 +80,7 @@ header img {
 @media (max-width: 768px) {
 	header img {
 		width: 100%;
+		margin-left: -10px;
 	}
 }
 
