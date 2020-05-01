@@ -22,7 +22,14 @@ body {
 header {
 	color: #7ad75d;
 	font-size:18px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin-bottom:50px;
+	text-transform:uppercase;
 }
+
 
 header img {
 		width: 50%;
@@ -36,6 +43,7 @@ header span.mockup-link:hover {
 
 .artist-music {
 	margin-top: 5%;
+	margin-bottom: 5;
 	width: 75%;
 	display:block;
 	margin-left:auto;
@@ -43,11 +51,18 @@ header span.mockup-link:hover {
 	height:auto;
 }
 
-footer {
-	display:flex;
+.artist-music iframe {
+	margin-top:25px;
+	margin-bottom:25px;
 }
 
-#artist-socials,.artist-logo  {
+footer {
+	display:flex;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+
+#artist-socials, .artist-logo  {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
