@@ -32,6 +32,13 @@ hr {
 	width: 80%;
 }
 
+.mock-enter {
+  position: absolute !important;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
 .mock-enter video {
 	object-fit: cover;
 	width: 100%;

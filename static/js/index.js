@@ -58,7 +58,7 @@ $(document).ready(function(){
 
   $(".mock-enter").click(function(){
     enableScroll();
-    scrollToAnchor("static-header");
+    $(".mock-enter").fadeOut("slow");
   });
 });
 
