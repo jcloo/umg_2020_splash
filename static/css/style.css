@@ -29,6 +29,11 @@ header {
 	text-transform:uppercase;
 }
 
+header a {
+	color: #7ad75d !important;
+
+}
+
 
 header img {
 		width: 50%;
