@@ -21,11 +21,26 @@ body {
 
 header {
 	color: #7ad75d;
-	font-size:24px;
+	font-size:18px;
+}
+
+header img {
+		width: 50%;
+    height: auto;
+    margin-top: 10%;
 }
 
 header span.mockup-link:hover {
 	color: white;
+}
+
+.artist-music {
+	margin-top: 5%;
+	width: 75%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
 }
 
 footer {
