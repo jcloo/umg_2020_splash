@@ -56,6 +56,7 @@ hr {
   position: absolute;
   width: 100%;
   font-size: 30px;
+  z-index: 10000 !important;
 }
 
 .enter-button img {
@@ -229,5 +230,5 @@ header span {
 		width: 30px !important;
 		height: auto;
 		margin-bottom:20px;
-    
+
 }
