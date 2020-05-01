@@ -48,6 +48,20 @@ header a {
   text-transform: uppercase;
 }
 
+#artist-nav {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#artist-nav div {
+	display: inline;
+}
+
+@media (max-width: 768px) {
+	#artist-nav div {
+		display: block;
+	}
+}
 
 header img {
 		width: 50%;
