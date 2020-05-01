@@ -11,6 +11,10 @@ $(document).ready(function(){
      	 scrollToAnchor($(this).data('href'));
        console.log("it scrolled");
   });
+
+  $(".signupLink").click(function(){
+    alert("COMING SOON");
+  });
 });
 
 
