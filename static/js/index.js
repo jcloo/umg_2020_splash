@@ -1,8 +1,11 @@
+$(document).ready(function(){
+
+  console.log("this js does load lol");
+});
+
+/*
 function scrollToAnchor(aid){
   	  var aTag = $("#"+ aid);
-  	  $('body').css({
-  	  	overflow: 'initial'
-  	  });
       console.log("scrolling animation start");
       $('html,body').animate({scrollTop: aTag.offset().top},'slow').promise().then(
   	  		function() {
@@ -19,7 +22,7 @@ $(".scrollTo").click(function() {
    	 scrollToAnchor($(this).data('href'));
      console.log("it scrolled");
 });
-
+*/
 // left: 37, up: 38, right: 39, down: 40,
 // spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
 var keys = {37: 1, 38: 1, 39: 1, 40: 1};
