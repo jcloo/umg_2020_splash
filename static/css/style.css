@@ -38,7 +38,7 @@ header {
 header a {
 	color: #7ad75d;
 	font-family: "Helvetica Bold", Arial !important;
-	font-size: calc(.09259vw + 11.7px);
+	font-size: 20px;
   letter-spacing: .01em;
   cursor: pointer;
   -webkit-transition: .2s color ease-in-out;
@@ -69,6 +69,12 @@ header img {
 		width: 50%;
     height: auto;
     margin-top: 10%;
+}
+
+@media (max-width: 768px) {
+	header img {
+		width: 100%;
+	}
 }
 
 header span.mockup-link a:hover {
