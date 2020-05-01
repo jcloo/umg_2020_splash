@@ -39,6 +39,10 @@ hr {
     height: 100vh;
 }
 
+.mock-enter:hover {
+  cursor: pointer;
+}
+
 .mock-enter video {
 	object-fit: cover;
 	width: 100%;
