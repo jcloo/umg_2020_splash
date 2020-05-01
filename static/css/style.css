@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Helvetica Bold';
+  src: url('/fonts/Helvetica Bold.ttf')  format('truetype');
+}
+
 @media(max-width: 768px) {
 	html, body {
   	overflow-x: hidden !important;
@@ -15,6 +20,7 @@ body {
 
 header {
 	color: #7ad75d !important;
+
 	text-align: center;
 	top: 0;
 	width: 100%;
@@ -31,6 +37,7 @@ header {
 
 header a {
 	color: #7ad75d;
+	font-family: "Helvetica Bold", Arial !important;
 	font-size: calc(.09259vw + 11.7px);
   letter-spacing: .01em;
   cursor: pointer;
