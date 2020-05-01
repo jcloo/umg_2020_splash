@@ -1,9 +1,9 @@
 @media(max-width: 768px) {
 	html, body {
-  	overflow-x: hidden;
+  	overflow-x: hidden !important;
 	}
 	body {
-  	position: relative;
+  	position: relative !important;
 	}
 }
 

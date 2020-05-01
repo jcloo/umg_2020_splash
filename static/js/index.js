@@ -12,6 +12,9 @@ $(document).ready(function(){
     	    	  });
     	  		}
     	  );
+        $('body').css({
+    	  	overflow: 'initial'
+    	  });
         console.log("scrolling animation done");
   }
 
