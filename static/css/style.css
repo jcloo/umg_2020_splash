@@ -18,6 +18,12 @@ body {
 			font-size: 24px;
 }
 
+.mock-enter video {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+}
+
 header {
 	color: #7ad75d !important;
 
@@ -77,7 +83,7 @@ header img {
 	}
 }
 
-header span.mockup-link a:hover {
+header .mockup-link a:hover {
 	color: white;
 	text-decoration: none !important;
 }
