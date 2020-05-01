@@ -31,7 +31,14 @@ header {
 
 header a {
 	color: #7ad75d;
-
+	font-size: calc(.09259vw + 11.7px);
+  letter-spacing: .01em;
+  cursor: pointer;
+  -webkit-transition: .2s color ease-in-out;
+  -o-transition: .2s color ease-in-out;
+  transition: .2s color ease-in-out;
+  padding: 0 1rem;
+  text-transform: uppercase;
 }
 
 
