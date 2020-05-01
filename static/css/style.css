@@ -1,16 +1,10 @@
-.example-class-selector {
-	margin-top: 2em;
-}
-
-
-.project {
-
-     margin-left: 20px;
-}
-
-
-.example-class-selector p {
-	color: #CC00AA;
+@media(max-width: 768px) {
+	html, body {
+  	overflow-x: hidden;
+	}
+	body {
+  	position: relative;
+	}
 }
 
 body {
