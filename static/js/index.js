@@ -1,20 +1,8 @@
 $(document).ready(function(){
   function scrollToAnchor(aid){
     	  var aTag = $("#"+ aid);
-    	  $('body').css({
-    	  	overflow: 'initial'
-    	  });
         console.log("scrolling animation start");
-        $('html,body').animate({scrollTop: aTag.offset().top},'slow').promise().then(
-    	  		function() {
-    	  			$('body').css({
-    	    	  	overflow: 'hidden'
-    	    	  });
-    	  		}
-    	  );
-        $('body').css({
-    	  	overflow: 'initial'
-    	  });
+        $('html,body').animate({scrollTop: aTag.offset().top},'slow').promise();
         console.log("scrolling animation done");
   }
 
