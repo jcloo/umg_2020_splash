@@ -1,8 +1,7 @@
 $(document).ready(function(){
   function scrollToAnchor(aid){
     	  var aTag = $("#"+ aid);
-        console.log("scrolling animation start");
-        $('html,body').animate({scrollTop: aTag.offset().top},'slow').promise().then(
+        $('html,body').stop(true,false).animate({scrollTop: aTag.offset().top},'slow').promise().then(
     	  		function() {
     	  			$('body').css({
     	    	  	overflow: 'hidden'
@@ -13,9 +12,7 @@ $(document).ready(function(){
   }
 
   $(".scrollTo").click(function() {
-      console.log($(this).data('href'));
      	 scrollToAnchor($(this).data('href'));
-       console.log("it scrolled");
   });
 });
 
