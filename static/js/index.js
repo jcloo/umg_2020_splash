@@ -42,11 +42,6 @@ $(document).ready(function(){
 
   disableScroll();
 
-  $(".mock-enter").click(function(){
-    enableScroll();
-    scrollToAnchor("static-header");
-  });
-
 
   function scrollToAnchor(aid){
     	  var aTag = $("#"+ aid);
@@ -59,6 +54,11 @@ $(document).ready(function(){
 
   $(".signupLink").click(function(){
     alert("COMING SOON");
+  });
+
+  $(".mock-enter").click(function(){
+    enableScroll();
+    scrollToAnchor("static-header");
   });
 });
 
